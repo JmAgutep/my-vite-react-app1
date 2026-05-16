@@ -1,4 +1,4 @@
-import "./TalentForm.css";
+import "./TalentForm.css"; 
 import React, { useState } from "react";
 
 const TalentForm = () => {
@@ -32,7 +32,7 @@ const TalentForm = () => {
 
     try {
       // REPLACE this URL with your actual Render Backend URL
-      const response = await fetch("https://expressnodeapp-bbvt.onrender.com/submit", {
+      const response = await fetch("https://express-node-app.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
